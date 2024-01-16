@@ -4,7 +4,7 @@ def user_input():
     return list
 
 
-def check_number(numbers, current_min, current_max):
+def check_num(numbers, current_min, current_max):
     for number in numbers:
         if number >= current_max:
             current_max = number
@@ -16,6 +16,6 @@ def check_number(numbers, current_min, current_max):
 numbers = user_input()
 current_max = numbers[0]
 current_min = numbers[0]
-current_min, current_max = check_number(numbers, current_min, current_max)
+current_min, current_max = check_num(numbers, current_min, current_max)
 maxmin = [current_min, current_max]
 print(maxmin)

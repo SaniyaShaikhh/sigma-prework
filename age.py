@@ -1,4 +1,5 @@
 from datetime import datetime
+
 current_date = datetime.now()
 
 user_input = input("Please enter date in the format dd-mm-yyyy: ")
